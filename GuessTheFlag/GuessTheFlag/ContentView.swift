@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showingEditAlert = false
+    
     var body: some View {
-        VStack {
-            Text("Hello World 1")
-            Text("Heeeeeeello Worllllld 1")
-            Text("Hello World 1")
+        Button(action: {
+            self.showingEditAlert = true
+        }, label: {
+            HStack(spacing: 10) {
+                Image(systemName: "pencil")
+                Text("Edit")
+            }
+        })
+        .alert(isPresented: $showingEditAlert) {
+            Alert(title: Text("Hello SwiftUI"), message: Text("This is some detail message"), dismissButton: .default(Text("Cool!")))
         }
     }
 }
