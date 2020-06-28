@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D339CF3E24A8C5C4009267D9 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D339CF3D24A8C5C4009267D9 /* SleepCalculator.mlmodel */; };
 		D3D5F25F24A78CC500463397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D5F25E24A78CC500463397 /* AppDelegate.swift */; };
 		D3D5F26124A78CC500463397 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D5F26024A78CC500463397 /* SceneDelegate.swift */; };
 		D3D5F26324A78CC500463397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D5F26224A78CC500463397 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D339CF3D24A8C5C4009267D9 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		D3D5F25B24A78CC500463397 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D5F25E24A78CC500463397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3D5F26024A78CC500463397 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				D3D5F26424A78CC700463397 /* Assets.xcassets */,
 				D3D5F26924A78CC700463397 /* LaunchScreen.storyboard */,
 				D3D5F26C24A78CC700463397 /* Info.plist */,
+				D339CF3D24A8C5C4009267D9 /* SleepCalculator.mlmodel */,
 				D3D5F26624A78CC700463397 /* Preview Content */,
 			);
 			path = BetterRest;
@@ -148,6 +151,7 @@
 			files = (
 				D3D5F25F24A78CC500463397 /* AppDelegate.swift in Sources */,
 				D3D5F26124A78CC500463397 /* SceneDelegate.swift in Sources */,
+				D339CF3E24A8C5C4009267D9 /* SleepCalculator.mlmodel in Sources */,
 				D3D5F26324A78CC500463397 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
