@@ -82,7 +82,7 @@ struct ContentView: View {
             let formatter = DateFormatter()
             formatter.timeStyle = .short
             
-            alertTitle = "Your ideal bedtime is..."
+            alertTitle = "Your ideal bedtime is:"
             alertMessage = formatter.string(from: sleepTime)
         } catch {
             alertTitle = "Error"
